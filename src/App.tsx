@@ -1,4 +1,4 @@
-import { Clients, Features, Frame, Header, Hero, Pana, Stats } from "./Components"
+import { Clients, Features, Footer, Frame, Header, Hero, Pana, Stats, Tesla } from "./Components"
 
 function App() {
   return (
@@ -12,6 +12,8 @@ function App() {
        <Frame/>
        <Stats/>
        <Pana/>
+       <Tesla/>
+       <Footer/>
      </div>
   )
 }
